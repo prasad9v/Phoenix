@@ -9,7 +9,7 @@ public class DomtarOrder {
 	private String orderStatus = null;
 	
 	/**
-	 * @return the orderId
+	 * @return the   orderId
 	 */
 	public String getOrderId() {
 		return orderId;
