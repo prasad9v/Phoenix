@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:accessbean="http:///accessbean.ecore" xmlns:ejb="ejb.xmi">
+  <accessbean:EJBShadow xmi:id="EJBShadow_1364887007640" name="ExtensionJDBCHelper">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#ExtensionJDBCHelper"/>
+  </accessbean:EJBShadow>
+  <accessbean:EJBShadow xmi:id="EJBShadow_1369806508015" name="XaddressRelation" factoryPackageName="com.ibm.commerce.extension.objects">
+    <accessBeans xmi:type="accessbean:Type2AccessBean" xmi:id="Type2AccessBean_1369806508015" name="XaddressRelationAccessBean" package="com.ibm.commerce.extension.objects" version="WSAD-1.0">
+      <copyHelperProperties xmi:id="CopyHelperProperty_1369806508015" name="shipToId" type="java.lang.Long" getterName="getShipToId"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1369806508016" name="shiptoName" type="java.lang.String" getterName="getShiptoName" setterName="setShiptoName"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1369806508017" name="billToId" type="java.lang.Long" getterName="getBillToId"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1369806508018" name="rrcId" type="java.lang.Long" getterName="getRrcId"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1369806508019" name="rrcName" type="java.lang.String" getterName="getRrcName" setterName="setRrcName"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1369910087142" name="createdTime" type="java.sql.Timestamp" getterName="getCreatedTime" setterName="setCreatedTime"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1369910087143" name="markForDelete" type="java.lang.Integer" getterName="getMarkForDelete" setterName="setMarkForDelete"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1369910087144" name="billtoName" type="java.lang.String" getterName="getBilltoName" setterName="setBilltoName"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1369910087145" name="lastUpdate" type="java.sql.Timestamp" getterName="getLastUpdate" setterName="setLastUpdate"/>
+      <nullConstructor xmi:id="MethodElement_1369806508015" name="findByPrimaryKey" parms="com.ibm.commerce.extension.objects.XaddressRelationKey" type="Home">
+        <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XaddressRelation"/>
+      </nullConstructor>
+      <nullConstructorParameters xmi:id="Parameter_1369806508016" name="billtoId" type="Long" isFieldFromKey="true"/>
+      <nullConstructorParameters xmi:id="Parameter_1369806508017" name="rrcId" type="Long" isFieldFromKey="true"/>
+      <nullConstructorParameters xmi:id="Parameter_1369806508018" name="shiptoId" type="Long" isFieldFromKey="true"/>
+    </accessBeans>
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XaddressRelation"/>
+  </accessbean:EJBShadow>
+  <accessbean:EJBShadow xmi:id="EJBShadow_1364887007641" name="XorderItems" factoryPackageName="com.ibm.commerce.extension.objects">
+    <accessBeans xmi:type="accessbean:Type2AccessBean" xmi:id="Type2AccessBean_1364887007640" name="XorderItemsAccessBean" package="com.ibm.commerce.extension.objects" version="WSAD-1.0">
+      <copyHelperProperties xmi:id="CopyHelperProperty_1364887007640" name="orderLineItemId" type="java.lang.Integer" getterName="getOrderLineItemId"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1364887007641" name="ordersId" type="java.lang.Long" getterName="getOrdersId"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1364887007642" name="hotOrder" type="java.lang.String" getterName="getHotOrder" setterName="setHotOrder"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1364887007644" name="invoiceIdentifier" type="java.lang.String" getterName="getInvoiceIdentifier" setterName="setInvoiceIdentifier"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1364887007645" name="weighType" type="java.lang.String" getterName="getWeighType" setterName="setWeighType"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1364887007646" name="manifestIdentifier" type="java.lang.String" getterName="getManifestIdentifier" setterName="setManifestIdentifier"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1364887007647" name="bolIdentifier" type="java.lang.String" getterName="getBolIdentifier" setterName="setBolIdentifier"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1364887007648" name="optCounter" type="short" getterName="getOptCounter" setterName="setOptCounter"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1364887007649" name="estimateDeliveryDate" type="java.sql.Timestamp" getterName="getEstimateDeliveryDate" setterName="setEstimateDeliveryDate"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1364887007650" name="totalWeight" type="java.math.BigDecimal" getterName="getTotalWeight" setterName="setTotalWeight"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1364887007651" name="orderItemsId" type="java.lang.Long" getterName="getOrderItemsId"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1364887112609" name="ordItemStatus" type="java.lang.Character" getterName="getOrdItemStatus" setterName="setOrdItemStatus"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1364887112610" name="ordStatus" type="java.lang.String" getterName="getOrdStatus" setterName="setOrdStatus"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1364887112611" name="salesOrderId" type="java.lang.String" getterName="getSalesOrderId"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1376634405473" name="sourceCity" type="java.lang.String" getterName="getSourceCity" setterName="setSourceCity"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1376634405474" name="sourceState" type="java.lang.String" getterName="getSourceState" setterName="setSourceState"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1376634405475" name="sourceCountry" type="java.lang.String" getterName="getSourceCountry" setterName="setSourceCountry"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1389729689710" name="unit" type="java.lang.String" getterName="getUnit" setterName="setUnit"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1389729689711" name="includeInTonnage" type="java.lang.String" getterName="getIncludeInTonnage" setterName="setIncludeInTonnage"/>
+      <copyHelperProperties xmi:id="CopyHelperProperty_1389820086685" name="sourcing_Id" type="java.lang.String" getterName="getSourcing_Id" setterName="setSourcing_Id"/>
+      <nullConstructor xmi:id="MethodElement_1364887007640" name="findByPrimaryKey" parms="com.ibm.commerce.extension.objects.XorderItemsKey" type="Home">
+        <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XorderItems"/>
+      </nullConstructor>
+      <nullConstructorParameters xmi:id="Parameter_1364887007640" name="orderLineItem_Id" type="Integer" isFieldFromKey="true"/>
+      <nullConstructorParameters xmi:id="Parameter_1364887007641" name="orders_Id" type="Long" isFieldFromKey="true"/>
+      <nullConstructorParameters xmi:id="Parameter_1364887007642" name="orderItems_Id" type="Long" isFieldFromKey="true"/>
+      <nullConstructorParameters xmi:id="Parameter_1364887007643" name="salesOrder_Id" type="String" isFieldFromKey="true"/>
+    </accessBeans>
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XorderItems"/>
+  </accessbean:EJBShadow>
+</xmi:XMI>

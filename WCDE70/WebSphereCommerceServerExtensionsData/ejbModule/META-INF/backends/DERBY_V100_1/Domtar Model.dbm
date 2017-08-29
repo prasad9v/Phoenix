@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.1.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:SQLSchema="http:///org/eclipse/datatools/modelbase/sql/schema.ecore" xmlns:SQLTables="http:///org/eclipse/datatools/modelbase/sql/tables.ecore" xmlns:datanotation="http:///datanotation.ecore">
+  <SQLSchema:Database xmi:id="_6hqgUJtiEeK8boN-FHLPTw" name="Database" vendor="Derby" version="10.0" schemas="_6nn-YJtiEeK8boN-FHLPTw __EFioJtiEeK8boN-FHLPTw"/>
+  <SQLSchema:Schema xmi:id="_6nn-YJtiEeK8boN-FHLPTw" name="Schema" database="_6hqgUJtiEeK8boN-FHLPTw">
+    <eAnnotations xmi:id="_6nn-YZtiEeK8boN-FHLPTw" source="diagram">
+      <contents xsi:type="datanotation:DataDiagram" xmi:id="_6nn-YptiEeK8boN-FHLPTw" type="IE_CrowFoot" name="Diagram1" viewKind="ProjectExplorer" notation="IE_CrowFoot" kind="Physical">
+        <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_6nn-Y5tiEeK8boN-FHLPTw"/>
+        <styles xsi:type="datanotation:DataCompartmentStyle" xmi:id="_6nn-ZJtiEeK8boN-FHLPTw"/>
+        <styles xsi:type="datanotation:DataDisplayStyle" xmi:id="_6nn-ZZtiEeK8boN-FHLPTw"/>
+        <styles xsi:type="datanotation:DataDiagramRelationshipStyle" xmi:id="_6nn-ZptiEeK8boN-FHLPTw"/>
+        <styles xsi:type="datanotation:DataShapeNameStyle" xmi:id="_6nn-Z5tiEeK8boN-FHLPTw"/>
+        <styles xsi:type="datanotation:DataDiagramFormattingStyle" xmi:id="_6nn-aJtiEeK8boN-FHLPTw"/>
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+    <eAnnotations xmi:id="_6q5U0JtiEeK8boN-FHLPTw" source="diagram">
+      <contents xsi:type="datanotation:DataDiagram" xmi:id="_6q5U0ZtiEeK8boN-FHLPTw" type="IE_CrowFoot" name="Diagram2" viewKind="ProjectExplorer" notation="IE_CrowFoot" kind="Physical">
+        <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_6q5U0ptiEeK8boN-FHLPTw"/>
+        <styles xsi:type="datanotation:DataCompartmentStyle" xmi:id="_6q5U05tiEeK8boN-FHLPTw"/>
+        <styles xsi:type="datanotation:DataDisplayStyle" xmi:id="_6q5U1JtiEeK8boN-FHLPTw"/>
+        <styles xsi:type="datanotation:DataDiagramRelationshipStyle" xmi:id="_6q5U1ZtiEeK8boN-FHLPTw"/>
+        <styles xsi:type="datanotation:DataShapeNameStyle" xmi:id="_6q5U1ptiEeK8boN-FHLPTw"/>
+        <styles xsi:type="datanotation:DataDiagramFormattingStyle" xmi:id="_6q5U15tiEeK8boN-FHLPTw"/>
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+  </SQLSchema:Schema>
+  <SQLSchema:Schema xmi:id="__EFioJtiEeK8boN-FHLPTw" name="NULLID" tables="_C_K4IJtjEeK8boN-FHLPTw _N1CmsMgfEeKFlcdYbIWGyg" database="_6hqgUJtiEeK8boN-FHLPTw">
+    <eAnnotations xmi:id="__EFioZtiEeK8boN-FHLPTw" source="diagram">
+      <contents xsi:type="datanotation:DataDiagram" xmi:id="__EOskJtiEeK8boN-FHLPTw" type="IE_CrowFoot" name="Diagram1" viewKind="ProjectExplorer" notation="IE_CrowFoot" kind="Physical">
+        <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="__EOskZtiEeK8boN-FHLPTw"/>
+        <styles xsi:type="datanotation:DataCompartmentStyle" xmi:id="__EOskptiEeK8boN-FHLPTw"/>
+        <styles xsi:type="datanotation:DataDisplayStyle" xmi:id="__EOsk5tiEeK8boN-FHLPTw"/>
+        <styles xsi:type="datanotation:DataDiagramRelationshipStyle" xmi:id="__EOslJtiEeK8boN-FHLPTw"/>
+        <styles xsi:type="datanotation:DataShapeNameStyle" xmi:id="__EOslZtiEeK8boN-FHLPTw"/>
+        <styles xsi:type="datanotation:DataDiagramFormattingStyle" xmi:id="__EOslptiEeK8boN-FHLPTw"/>
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+  </SQLSchema:Schema>
+  <SQLTables:PersistentTable xmi:id="_C_K4IJtjEeK8boN-FHLPTw" name="XORDITEMS" schema="__EFioJtiEeK8boN-FHLPTw">
+    <columns xmi:id="_HovrUJtjEeK8boN-FHLPTw" name="ORDERLINEITEM_ID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_LKpEwJtjEeK8boN-FHLPTw" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_LsnwcJtjEeK8boN-FHLPTw" name="ORDERS_ID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_Q4xFMJtjEeK8boN-FHLPTw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xmi:id="_M1VsAJtjEeK8boN-FHLPTw" name="ORDERITEMS_ID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_TBtHoJtjEeK8boN-FHLPTw" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xmi:id="_NDy-wJtjEeK8boN-FHLPTw" name="SALESORDER_ID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_NDy-wZtjEeK8boN-FHLPTw" name="CHAR" length="30"/>
+    </columns>
+    <columns xmi:id="_NHhBIJtjEeK8boN-FHLPTw" name="TOTALWEIGHT">
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_Yuo1QJtjEeK8boN-FHLPTw" name="DECIMAL" primitiveType="DECIMAL" precision="20" scale="3"/>
+    </columns>
+    <columns xmi:id="_NLsWgJtjEeK8boN-FHLPTw" name="WEIGHTYPE">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_cr9mcJtjEeK8boN-FHLPTw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="20"/>
+    </columns>
+    <columns xmi:id="_NPHd8JtjEeK8boN-FHLPTw" name="HOTORDER">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_go-1oJtjEeK8boN-FHLPTw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="3"/>
+    </columns>
+    <columns xmi:id="_NVX28JtjEeK8boN-FHLPTw" name="ORDSTATUS">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_oDI6EJtjEeK8boN-FHLPTw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="3"/>
+    </columns>
+    <columns xmi:id="_NYgDcJtjEeK8boN-FHLPTw" name="ORDITEMSTATUS" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_qRJCsJtjEeK8boN-FHLPTw" name="CHAR"/>
+    </columns>
+    <columns xmi:id="_Nbo3AJtjEeK8boN-FHLPTw" name="ESTIMATEDELIVERYDATE">
+      <containedType xsi:type="SQLDataTypes:TimeDataType" xmi:id="_sahxEJtjEeK8boN-FHLPTw" name="TIMESTAMP" primitiveType="TIMESTAMP"/>
+    </columns>
+    <columns xmi:id="_Ne6NcJtjEeK8boN-FHLPTw" name="BOLIDENTIFIER">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_utwX8JtjEeK8boN-FHLPTw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="50"/>
+    </columns>
+    <columns xmi:id="_NiMK8JtjEeK8boN-FHLPTw" name="MANIFESTIDENTIFIER">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_xCUbkJtjEeK8boN-FHLPTw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="50"/>
+    </columns>
+    <columns xmi:id="_Nm9WMJtjEeK8boN-FHLPTw" name="INVOICEIDENTIFIER ">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_zeotAJtjEeK8boN-FHLPTw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="50"/>
+    </columns>
+    <columns xmi:id="_NseIUJtjEeK8boN-FHLPTw" name="OPTCOUNTER">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_10ZDcJtjEeK8boN-FHLPTw" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns xmi:id="_6JP_kAY6EeOdoN8EQq9AoQ" name="SOURCECOUNTRY">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_CL-f4AY7EeOdoN8EQq9AoQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="50"/>
+    </columns>
+    <columns xmi:id="_9bd-QAY6EeOdoN8EQq9AoQ" name="SOURCESTATE">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_F8HwsAY7EeOdoN8EQq9AoQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="50"/>
+    </columns>
+    <columns xmi:id="_Hd7hsAY7EeOdoN8EQq9AoQ" name="SOURCECITY">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_IuzTsAY7EeOdoN8EQq9AoQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="50"/>
+    </columns>
+    <columns xmi:id="__KktMX1TEeOce-Vi2X88mA" name="UNIT">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_CLm1QH1UEeOce-Vi2X88mA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="20"/>
+    </columns>
+    <columns xmi:id="_JQTAAH1UEeOce-Vi2X88mA" name="INCLUDEINTONNAGE">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_LWhssH1UEeOce-Vi2X88mA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="3"/>
+    </columns>
+    <columns xmi:id="_CPuF4X4oEeOEQ6whZNXlTw" name="SOURCING_ID" defaultValue="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_EKmeMH4oEeOEQ6whZNXlTw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="30"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_JhTIYJtjEeK8boN-FHLPTw" name="XORDITEMS_PK" members="_HovrUJtjEeK8boN-FHLPTw _LsnwcJtjEeK8boN-FHLPTw _M1VsAJtjEeK8boN-FHLPTw _NDy-wJtjEeK8boN-FHLPTw"/>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable xmi:id="_N1CmsMgfEeKFlcdYbIWGyg" name="XADDRREL" schema="__EFioJtiEeK8boN-FHLPTw">
+    <columns xmi:id="_n3k7gMgfEeKFlcdYbIWGyg" name="BILLTO_ID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_p0WKMMgfEeKFlcdYbIWGyg" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xmi:id="_plxCIMkQEeKFlcdYbIWGyg" name="BILLTO_NAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_rrZR4MkQEeKFlcdYbIWGyg" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="254"/>
+    </columns>
+    <columns xmi:id="_t_GTYMgfEeKFlcdYbIWGyg" name="RRC_NAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_v3oiUMgfEeKFlcdYbIWGyg" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="254"/>
+    </columns>
+    <columns xmi:id="_r5USoMgfEeKFlcdYbIWGyg" name="RRC_ID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_swE7gMgfEeKFlcdYbIWGyg" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xmi:id="_42yOoMgfEeKFlcdYbIWGyg" name="SHIPTO_NAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_52eKAMgfEeKFlcdYbIWGyg" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="254"/>
+    </columns>
+    <columns xmi:id="_1wjdgMgfEeKFlcdYbIWGyg" name="SHIPTO_ID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_3Iqf8MgfEeKFlcdYbIWGyg" name="BIGINT" primitiveType="BIGINT"/>
+    </columns>
+    <columns xmi:id="_tc5rwMkQEeKFlcdYbIWGyg" name="TIMEPCREATE">
+      <containedType xsi:type="SQLDataTypes:TimeDataType" xmi:id="_wWPQYMkQEeKFlcdYbIWGyg" name="TIMESTAMP" primitiveType="TIMESTAMP"/>
+    </columns>
+    <columns xmi:id="_xUrOkMkQEeKFlcdYbIWGyg" name="LASTUPDATE">
+      <containedType xsi:type="SQLDataTypes:TimeDataType" xmi:id="_0ZAiQMkQEeKFlcdYbIWGyg" name="TIMESTAMP" primitiveType="TIMESTAMP"/>
+    </columns>
+    <columns xmi:id="_04wZUMkQEeKFlcdYbIWGyg" name="MARKFORDELETE">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_35F90MkQEeKFlcdYbIWGyg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_9fYKYMgfEeKFlcdYbIWGyg" name="OPTCOUNTER">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="__ATKkMgfEeKFlcdYbIWGyg" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_oXVZoMgfEeKFlcdYbIWGyg" name="XADDRREL_PK" members="_n3k7gMgfEeKFlcdYbIWGyg _r5USoMgfEeKFlcdYbIWGyg _1wjdgMgfEeKFlcdYbIWGyg"/>
+  </SQLTables:PersistentTable>
+</xmi:XMI>

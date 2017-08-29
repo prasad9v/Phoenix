@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejbext:EJBJarExtension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ejb="ejb.xmi" xmlns:ejbext="ejbext.xmi" xmi:id="ejb-jar_ID">
+  <ejbExtensions xmi:type="ejbext:SessionExtension" xmi:id="SessionExtension_1041304980297" timeout="0">
+    <runAsSettings xmi:id="SecurityIdentity_1041305206813" description="">
+      <methodElements xmi:id="MethodElement_1041305206813" name="*" type="Unspecified">
+        <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#ExtensionJDBCHelper"/>
+      </methodElements>
+      <runAsMode xmi:type="ejbext:UseSystemIdentity" xmi:id="UseSystemIdentity_1041305206813"/>
+    </runAsSettings>
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#ExtensionJDBCHelper"/>
+    <isolationLevelAttributes xmi:id="IsolationLevelAttributes_1041304980297" isolationLevel="READ_COMMITTED">
+      <methodElements xmi:id="MethodElement_1041304980297" name="*" type="Unspecified">
+        <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#ExtensionJDBCHelper"/>
+      </methodElements>
+    </isolationLevelAttributes>
+  </ejbExtensions>
+  <ejbExtensions xmi:type="ejbext:ContainerManagedEntityExtension" xmi:id="ContainerManagedEntityExtension_1364884655593" concurrencyControl="optimistic">
+    <runAsSettings xmi:id="SecurityIdentity_1364884655593" description="">
+      <methodElements xmi:id="MethodElement_1364884655593" name="*" type="Unspecified">
+        <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XorderItems"/>
+      </methodElements>
+      <runAsMode xmi:type="ejbext:UseSystemIdentity" xmi:id="UseSystemIdentity_1364884655593"/>
+    </runAsSettings>
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XorderItems"/>
+    <isolationLevelAttributes xmi:id="IsolationLevelAttributes_1364884655593" isolationLevel="READ_COMMITTED">
+      <methodElements xmi:id="MethodElement_1364884655594" name="*" type="Unspecified">
+        <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XorderItems"/>
+      </methodElements>
+    </isolationLevelAttributes>
+    <finderDescriptors xmi:type="ejbext:WhereClauseFinderDescriptor" xmi:id="WhereClauseFinderDescriptor_1376634243103" whereClause="T1.ORDERLINEITEM_ID = ? &amp; T1.ORDERS_ID = ? &amp; T1.ORDERITEMS_ID = ? &amp; SALESORDER_ID =?">
+      <finderMethodElements xmi:id="MethodElement_1376634243103" name="findfindByCompositeIds" parms="java.lang.Integer java.lang.Long java.lang.Long java.lang.String" type="Home">
+        <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XorderItems"/>
+      </finderMethodElements>
+    </finderDescriptors>
+    <finderDescriptors xmi:type="ejbext:WhereClauseFinderDescriptor" xmi:id="WhereClauseFinderDescriptor_1376634441334" whereClause="T1.ORDERITEMS_ID=?">
+      <finderMethodElements xmi:id="MethodElement_1376634441334" name="findByOrderItemId" parms="java.lang.Long" type="Home">
+        <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XorderItems"/>
+      </finderMethodElements>
+    </finderDescriptors>
+    <finderDescriptors xmi:type="ejbext:WhereClauseFinderDescriptor" xmi:id="WhereClauseFinderDescriptor_1376634441335" whereClause="T1.SALESORDER_ID=?">
+      <finderMethodElements xmi:id="MethodElement_1376634441335" name="findbysalesOrder_id" parms="java.lang.String" type="Home">
+        <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XorderItems"/>
+      </finderMethodElements>
+    </finderDescriptors>
+    <accessIntents xmi:id="AccessIntent_1364884655593" intentType="READ">
+      <methodElements xmi:id="MethodElement_1364887007625" name="_copyFromEJB" parms="" type="Remote">
+        <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XorderItems"/>
+      </methodElements>
+    </accessIntents>
+  </ejbExtensions>
+  <ejbExtensions xmi:type="ejbext:ContainerManagedEntityExtension" xmi:id="ContainerManagedEntityExtension_1369734144730" concurrencyControl="optimistic">
+    <runAsSettings xmi:id="SecurityIdentity_1369734345684" description="">
+      <methodElements xmi:id="MethodElement_1369734345684" name="*" type="Unspecified">
+        <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XaddressRelation"/>
+      </methodElements>
+      <runAsMode xmi:type="ejbext:UseSystemIdentity" xmi:id="UseSystemIdentity_1369734345684"/>
+    </runAsSettings>
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XaddressRelation"/>
+    <isolationLevelAttributes xmi:id="IsolationLevelAttributes_1369734291259" isolationLevel="READ_COMMITTED">
+      <methodElements xmi:id="MethodElement_1369734291259" name="*" type="Unspecified">
+        <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XaddressRelation"/>
+      </methodElements>
+    </isolationLevelAttributes>
+    <finderDescriptors xmi:type="ejbext:WhereClauseFinderDescriptor" xmi:id="WhereClauseFinderDescriptor_1369916789352" whereClause="T1.BILLTO_ID = ?">
+      <finderMethodElements xmi:id="MethodElement_1369916789353" name="findbyBillToId" parms="java.lang.Long" type="Home">
+        <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XaddressRelation"/>
+      </finderMethodElements>
+    </finderDescriptors>
+    <finderDescriptors xmi:type="ejbext:WhereClauseFinderDescriptor" xmi:id="WhereClauseFinderDescriptor_1370424415752" whereClause="T1.RRC_ID = ?">
+      <finderMethodElements xmi:id="MethodElement_1370424415752" name="findbyRrcId" parms="java.lang.Long" type="Home">
+        <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XaddressRelation"/>
+      </finderMethodElements>
+    </finderDescriptors>
+    <accessIntents xmi:id="AccessIntent_1369734144731" intentType="READ">
+      <methodElements xmi:id="MethodElement_1369806507905" name="_copyFromEJB" parms="" type="Remote">
+        <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XaddressRelation"/>
+      </methodElements>
+    </accessIntents>
+  </ejbExtensions>
+  <ejbJar href="META-INF/ejb-jar.xml#ejb-jar_ID"/>
+</ejbext:EJBJarExtension>

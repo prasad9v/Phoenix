@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejbbnd:EJBJarBinding xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ejb="ejb.xmi" xmlns:ejbbnd="ejbbnd.xmi" xmi:id="EJBJarBinding_1041304850140" currentBackendId="DERBY_V100_1">
+  <ejbJar href="META-INF/ejb-jar.xml#ejb-jar_ID"/>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1041304850140" jndiName="ejb/com/ibm/commerce/extension/helpers/ExtensionJDBCHelperHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#ExtensionJDBCHelper"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1364884655609" jndiName="ejb/com/ibm/commerce/extension/objects/XorderItemsHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XorderItems"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1369734144624" jndiName="ejb/com/ibm/commerce/extension/objects/XaddressRelationHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XaddressRelation"/>
+  </ejbBindings>
+  <defaultCMPConnectionFactory xmi:id="CMPConnectionFactoryBinding_1069893248765" jndiName="jdbc/WebSphere Commerce Cloudscape DataSource demo" resAuth="Per_Connection_Factory"/>
+</ejbbnd:EJBJarBinding>

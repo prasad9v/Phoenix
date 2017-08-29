@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejbrdbmapping:EjbRdbDocumentRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:SQLSchema="http:///org/eclipse/datatools/modelbase/sql/schema.ecore" xmlns:SQLTables="http:///org/eclipse/datatools/modelbase/sql/tables.ecore" xmlns:ejb="ejb.xmi" xmlns:ejbrdbmapping="ejbrdbmapping.xmi" xmlns:Mapping="Mapping.xmi" xmi:id="EjbRdbDocumentRoot_1364886680687" topToBottom="true" commandStack="">
+  <helper xmi:type="ejbrdbmapping:RdbSchemaProperies" xmi:id="RdbSchemaProperies_1364886680687" primitivesDocument="DERBY_V100"/>
+  <nested xmi:type="ejbrdbmapping:RDBEjbMapper" xmi:id="RDBEjbMapper_1364886770281">
+    <helper xmi:type="ejbrdbmapping:PrimaryTableStrategy" xmi:id="PrimaryTableStrategy_1364886770281">
+      <table xmi:type="SQLTables:PersistentTable" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_C_K4IJtjEeK8boN-FHLPTw"/>
+    </helper>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1364886770281">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1364886770281"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_HovrUJtjEeK8boN-FHLPTw"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#Integer-INTEGER"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1364886770282">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1364886770282"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_LsnwcJtjEeK8boN-FHLPTw"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#Long-BIGINT"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1364886770283">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1364886770283"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_M1VsAJtjEeK8boN-FHLPTw"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#Long-BIGINT"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1364886770284">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1364886770284"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_NDy-wJtjEeK8boN-FHLPTw"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#String-CHAR(1)"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1364886770285">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1364886770285"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_NHhBIJtjEeK8boN-FHLPTw"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#BigDecimal-DECIMAL"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1364886770286">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1364886770286"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_NLsWgJtjEeK8boN-FHLPTw"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#String-VARCHAR"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1364886770287">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1364886770287"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_NPHd8JtjEeK8boN-FHLPTw"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#String-VARCHAR"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1364886770297">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1364886770297"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_NVX28JtjEeK8boN-FHLPTw"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#String-VARCHAR"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1364886770298">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1364886770298"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_NYgDcJtjEeK8boN-FHLPTw"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#Character-CHAR(1)"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1364886770299">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1364886770299"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_Nbo3AJtjEeK8boN-FHLPTw"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#Timestamp-TIMESTAMP"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1364886770300">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1364886770300"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_Ne6NcJtjEeK8boN-FHLPTw"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#String-VARCHAR"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1364886770301">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1364886770301"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_NiMK8JtjEeK8boN-FHLPTw"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#String-VARCHAR"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1364886770302">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1364886770302"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_Nm9WMJtjEeK8boN-FHLPTw"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#String-VARCHAR"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1364886770303" optimistic="true">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1364886770303"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_NseIUJtjEeK8boN-FHLPTw"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#short-SMALLINT"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1376633812677">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1376633812677"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_6JP_kAY6EeOdoN8EQq9AoQ"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#String-VARCHAR"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1376633812768">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1376633812768"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_9bd-QAY6EeOdoN8EQq9AoQ"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#String-VARCHAR"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1376633812770">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1376633812770"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_Hd7hsAY7EeOdoN8EQq9AoQ"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#String-VARCHAR"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1389728829622">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1389728829622"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#__KktMX1TEeOce-Vi2X88mA"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#String-VARCHAR"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1389728829653">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1389728829653"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_JQTAAH1UEeOce-Vi2X88mA"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#String-VARCHAR"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1389819856921">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1364886770296"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_CPuF4X4oEeOEQ6whZNXlTw"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#String-VARCHAR"/>
+    </nested>
+    <inputs xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XorderItems"/>
+    <outputs xmi:type="SQLTables:PersistentTable" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_C_K4IJtjEeK8boN-FHLPTw"/>
+  </nested>
+  <nested xmi:type="ejbrdbmapping:RDBEjbMapper" xmi:id="RDBEjbMapper_1369805612365">
+    <helper xmi:type="ejbrdbmapping:PrimaryTableStrategy" xmi:id="PrimaryTableStrategy_1369805612365">
+      <table xmi:type="SQLTables:PersistentTable" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_N1CmsMgfEeKFlcdYbIWGyg"/>
+    </helper>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1369805612365" optimistic="true">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1369805612365"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_9fYKYMgfEeKFlcdYbIWGyg"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#short-SMALLINT"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1369805612522">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1369805612522"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_n3k7gMgfEeKFlcdYbIWGyg"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#Long-BIGINT"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1369805612526">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1369805612526"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_t_GTYMgfEeKFlcdYbIWGyg"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#String-VARCHAR"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1369805612530">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1369805612530"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_r5USoMgfEeKFlcdYbIWGyg"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#Long-BIGINT"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1369805612533">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1369805612533"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_42yOoMgfEeKFlcdYbIWGyg"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#String-VARCHAR"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1369805612536">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1369805612536"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_1wjdgMgfEeKFlcdYbIWGyg"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#Long-BIGINT"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1369909285366">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1369909285366"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_plxCIMkQEeKFlcdYbIWGyg"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#String-VARCHAR"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1369909285384">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1369909285384"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_tc5rwMkQEeKFlcdYbIWGyg"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#Timestamp-TIMESTAMP"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1369909285388">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1369909285388"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_xUrOkMkQEeKFlcdYbIWGyg"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#Timestamp-TIMESTAMP"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1369909285392">
+      <inputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1369909285392"/>
+      <outputs xmi:type="SQLTables:Column" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_04wZUMkQEeKFlcdYbIWGyg"/>
+      <typeMapping href="JavatoDERBY_V100TypeMaps.V7.xmi#Integer-INTEGER"/>
+    </nested>
+    <inputs xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#XaddressRelation"/>
+    <outputs xmi:type="SQLTables:PersistentTable" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_N1CmsMgfEeKFlcdYbIWGyg"/>
+  </nested>
+  <inputs xmi:type="ejb:EJBJar" href="META-INF/ejb-jar.xml#ejb-jar_ID"/>
+  <outputs xmi:type="SQLSchema:Database" href="META-INF/backends/DERBY_V100_1/Domtar Model.dbm#_6hqgUJtiEeK8boN-FHLPTw"/>
+  <typeMapping xmi:type="Mapping:MappingRoot" href="JavatoDERBY_V100TypeMaps.V7.xmi#Java_to_DERBY_V10_TypeMaps"/>
+  <deploymentOptions xmi:id="WASDeploymentOptions_1389819856921"/>
+</ejbrdbmapping:EjbRdbDocumentRoot>

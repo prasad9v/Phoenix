@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar id="ejb-jar_ID" version="2.1" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/ejb-jar_2_1.xsd">
+<display-name>WebSphereCommerceServerExtensionsData</display-name>
+	<enterprise-beans>
+		<session id="ExtensionJDBCHelper">
+			<ejb-name>ExtensionJDBCHelper</ejb-name>
+			<home>sample.extensions.ExtensionJDBCHelperHome</home>
+			<remote>sample.extensions.ExtensionJDBCHelper</remote>
+			<ejb-class>sample.extensions.ExtensionJDBCHelperBean</ejb-class>
+			<session-type>Stateless</session-type>
+			<transaction-type>Container</transaction-type>
+		</session>
+		<entity id="XorderItems">
+			<ejb-name>XorderItems</ejb-name>
+			<home>com.ibm.commerce.extension.objects.XorderItemsHome</home>
+			<remote>com.ibm.commerce.extension.objects.XorderItems</remote>
+			<ejb-class>com.ibm.commerce.extension.objects.XorderItemsBean</ejb-class>
+			<persistence-type>Container</persistence-type>
+			<prim-key-class>com.ibm.commerce.extension.objects.XorderItemsKey</prim-key-class>
+			<reentrant>false</reentrant>
+			<cmp-version>1.x</cmp-version>
+			<cmp-field id="CMPAttribute_1364886770281">
+				<field-name>orderLineItem_Id</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1364886770282">
+				<field-name>orders_Id</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1364886770283">
+				<field-name>orderItems_Id</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1364886770284">
+				<field-name>salesOrder_Id</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1364886770285">
+				<field-name>totalWeight</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1364886770286">
+				<field-name>weighType</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1364886770287">
+				<field-name>hotOrder</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1364886770296">
+				<field-name>sourcing_Id</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1364886770297">
+				<field-name>ordStatus</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1364886770298">
+				<field-name>ordItemStatus</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1364886770299">
+				<field-name>estimateDeliveryDate</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1364886770300">
+				<field-name>bolIdentifier</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1364886770301">
+				<field-name>manifestIdentifier</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1364886770302">
+				<field-name>invoiceIdentifier</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1364886770303">
+				<field-name>optCounter</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1376633812677">
+				<field-name>sourceCountry</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1376633812768">
+				<field-name>sourceState</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1376633812770">
+				<field-name>sourceCity</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1389728829622">
+				<field-name>unit</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1389728829653">
+				<field-name>includeInTonnage</field-name>
+			</cmp-field>
+		</entity>
+		<entity id="XaddressRelation">
+			<ejb-name>XaddressRelation</ejb-name>
+			<home>com.ibm.commerce.extension.objects.XaddressRelationHome</home>
+			<remote>com.ibm.commerce.extension.objects.XaddressRelation</remote>
+			<ejb-class>com.ibm.commerce.extension.objects.XaddressRelationBean</ejb-class>
+			<persistence-type>Container</persistence-type>
+			<prim-key-class>com.ibm.commerce.extension.objects.XaddressRelationKey</prim-key-class>
+			<reentrant>false</reentrant>
+			<cmp-version>1.x</cmp-version>
+			<cmp-field id="CMPAttribute_1369805612522">
+				<field-name>billtoId</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1369805612526">
+				<field-name>rrcName</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1369805612530">
+				<field-name>rrcId</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1369805612533">
+				<field-name>shiptoName</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1369805612536">
+				<field-name>shiptoId</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1369805612365">
+				<field-name>optCounter</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1369909285366">
+				<field-name>billtoName</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1369909285384">
+				<field-name>createdTime</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1369909285388">
+				<field-name>lastUpdate</field-name>
+			</cmp-field>
+			<cmp-field id="CMPAttribute_1369909285392">
+				<field-name>markForDelete</field-name>
+			</cmp-field>
+		</entity>
+	</enterprise-beans>
+	<assembly-descriptor>
+		<security-role id="WCSecurityRoleId">
+			<description>WebSphere Commerce Security Role.</description>
+			<role-name>WCSecurityRole</role-name>
+		</security-role>
+		<method-permission id="WCMethodPermissionId">
+			<description>WCMethodPermission:+:</description>
+			<role-name>WCSecurityRole</role-name>
+			<method id="WCMethodElement_1">
+				<ejb-name>ExtensionJDBCHelper</ejb-name>
+				<method-name>*</method-name>
+			</method>
+		</method-permission>
+		<method-permission>
+			<role-name>WCSecurityRole</role-name>
+			<method>
+				<ejb-name>XorderItems</ejb-name>
+				<method-name>*</method-name>
+			</method>
+		</method-permission>
+		<method-permission>
+			<role-name>WCSecurityRole</role-name>
+			<method>
+				<ejb-name>XaddressRelation</ejb-name>
+				<method-name>*</method-name>
+			</method>
+		</method-permission>
+	</assembly-descriptor>
+</ejb-jar>
